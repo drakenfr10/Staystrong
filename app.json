@@ -1,18 +1,11 @@
 {
   "expo": {
     "name": "Stay Strong",
-    "slug": "staystrong",
+    "slug": "staystrong-advanced",
     "version": "2.0.0",
-    "platforms": [
-      "android"
-    ],
+    "platforms": ["android"],
     "android": {
       "package": "com.staystrong"
-    },
-    "extra": {
-      "eas": {
-        "projectId": "f8b7846f-81a1-4579-81c2-28fc880e4787"
-      }
     }
   }
 }
