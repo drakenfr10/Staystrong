@@ -2,56 +2,17 @@
   "expo": {
     "name": "Stay Strong",
     "slug": "staystrong",
-    "version": "1.0.0",
-    "assetBundlePatterns": ["**/*"],
-    "platforms": ["android"],
+    "version": "2.0.0",
+    "platforms": [
+      "android"
+    ],
     "android": {
-      "package": "com.staystrong",
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#667eea"
-      },
-      "permissions": [
-        "android.permission.INTERNET",
-        "android.permission.ACCESS_NETWORK_STATE",
-        "android.permission.BIND_VPN_SERVICE",
-        "android.permission.CHANGE_NETWORK_STATE",
-        "android.permission.CHANGE_WIFI_STATE",
-        "android.permission.ACCESS_WIFI_STATE",
-        "android.permission.RECEIVE_BOOT_COMPLETED",
-        "android.permission.WRITE_SECURE_SETTINGS"
-      ],
-      "config": {
-        "googleMobileAdsAppId": ""
-      },
-      "intentFilters": [
-        {
-          "action": "android.intent.action.MAIN",
-          "category": ["android.intent.category.LAUNCHER"]
-        },
-        {
-          "action": "android.net.VpnService",
-          "category": []
-        }
-      ]
+      "package": "com.staystrong"
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    },
-    "plugins": [
-      [
-        "expo-build-properties",
-        {
-          "android": {
-            "compileSdkVersion": 33,
-            "targetSdkVersion": 33,
-            "minSdkVersion": 21,
-            "buildToolsVersion": "33.0.0",
-            "kotlinVersion": "1.7.10",
-            "enableProguardInReleaseBuilds": true
-          }
-        }
-      ]
-    ]
+    "extra": {
+      "eas": {
+        "projectId": "f8b7846f-81a1-4579-81c2-28fc880e4787"
+      }
+    }
   }
 }
