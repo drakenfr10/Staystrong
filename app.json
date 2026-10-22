@@ -4,9 +4,6 @@
     "slug": "staystrong-advanced",
     "version": "2.0.0",
     "projectId": "e93f599c-6959-4f21-8d1c-2499a0d761b6",
-    "platforms": ["android"],
-    "android": {
-      "package": "com.staystrong"
-    }
+    "platforms": ["android"]
   }
 }
